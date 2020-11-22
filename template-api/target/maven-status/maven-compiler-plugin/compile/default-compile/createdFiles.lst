@@ -1,2 +1,3 @@
 com/demo/util/ApplicationStarter.class
 com/demo/util/api/config/SwaggerConfig.class
+com/demo/util/api/controller/TestController.class
