@@ -28,9 +28,7 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
-cp template-demo/target/template-demo.jar ${output}
-cp control.sh ${output}
-chmod 744 ${output}/control.sh
+cp template-api/target/util-api-1.0-SNAPSHOT.jar ${output}/util-api-1.0-SNAPSHOT.jar.build
 
 if [ $? -ne 0 ]; then
     echo ""
