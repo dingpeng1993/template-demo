@@ -24,6 +24,7 @@ public class TestController {
         ModelMap modelMap = new ModelMap();
         modelMap.put("result", "helloWord");
         System.out.println("test");
+        System.out.println("test");
         return BaseResponse.success(modelMap);
     }
 }
