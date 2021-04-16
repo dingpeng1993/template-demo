@@ -23,6 +23,7 @@ public class TestController {
         log.info("test");
         ModelMap modelMap = new ModelMap();
         modelMap.put("result", "helloWord");
+        System.out.println("test");
         return BaseResponse.success(modelMap);
     }
 }
