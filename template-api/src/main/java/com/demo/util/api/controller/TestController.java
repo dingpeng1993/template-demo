@@ -21,6 +21,7 @@ public class TestController {
     @GetMapping("/hello")
     public BaseResponse<ModelMap> test() {
         log.info("test");
+        log.info("test");
         ModelMap modelMap = new ModelMap();
         modelMap.put("result", "helloWord");
         System.out.println("test");
